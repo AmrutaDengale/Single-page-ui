@@ -1,0 +1,119 @@
+.navbar{
+    font-size: 18px;
+  align-items: center;
+    cursor: pointer;
+    padding: 10px; 
+    
+      
+  }
+  .navbar-brand{
+  
+    height: 50px;
+    padding: 15px 15px;
+    font-size:30px;
+    line-height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.bg-img {
+
+    
+     width: 100%;
+    height:700px;
+     /* background:linear-gradient(rgba(71, 69, 69, 0.5),rgba(117, 115, 115, 0.5))url("image/bg.jpg");  */
+ background: url("image/bg3.jpg"); 
+     /* background-size: auto;
+    text-align: center; */
+     background-position: center;
+     background-repeat: no-repeat; 
+}
+
+
+.top-title {
+    color:whitesmoke;
+    text-align: center;
+    font-size:80px;
+    font-family: cursive;
+    font-weight: 400;
+    margin-top: 100px;
+  
+}
+
+.second-title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 200px;
+    font-style: italic;
+}
+
+ 
+
+ 
+ /*Navigation end  */
+ /* about section */
+ .description_content { 
+    padding: 50px 0; 
+    width: 100%;
+    height:100%;
+    background: #fff;
+    margin: 0 auto 0 auto;
+    z-index: 99;
+    position: relative;
+    background: white;
+    text-align: center; 
+}
+.title{
+    font-size: 35px;
+    font-weight:900;
+    width: 225px;
+    letter-spacing: 0.040em;
+    border: 1px solid rgb(56, 54, 54);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 7px 16px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+.desc-text{
+margin-top: 15px;
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+}
+.img-section-space {
+    
+    margin-top: 5px;
+}
+img{
+    vertical-align: middle;
+} 
+/* about section end */
+/* menu section */
+.card{
+    margin: 10px 5px 10px 5px;
+   border: 1px solid rgb(95, 88, 88); 
+   border-radius: 5px;
+}
+.card-title{
+    font-size: 20px;
+    font-weight:500;
+    width: 400px;
+
+    
+    padding: 7px 16px;
+  margin-bottom: 10px;
+  
+}
+/* menu section end */
+
+/* contact section */
+
+.btn{
+    margin: 5px 0px 5px 0px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+}
